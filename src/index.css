@@ -1,0 +1,71 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  
+}
+.logo{
+   width: 150px;
+   height: 100px;
+   padding-left: 15px;
+   padding-top: 8px;
+}
+.nav-items>ul{
+  display: flex;
+  font-size: 24px;
+}
+.nav-items>ul>li{
+  padding:10px ;
+  margin: 10px;
+  list-style-type: none  ;
+}
+.restaurent-card{
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(153, 140, 135);
+  
+}
+.restaurent-card:hover{
+  border: 1px solid black;
+  cursor: pointer;
+
+  
+}
+.restaurent-container{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+
+}
+.filter-btn{
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.res-logo{
+  width: 200px;
+  height: 200px;
+  
+}
+.shimmer-card{
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.login{
+  padding: 0px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.filter{
+  display: flex;
+}
